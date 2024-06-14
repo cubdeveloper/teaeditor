@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"); /* Merriweather */
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); /* Kanit */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"); /* Quicksand */
+
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"); /* Kode Mono */
+
+body {
+  background-color: rgb(30, 30, 30);
+  color: #fff;
+  text-align: center;
+  font-family: Quicksand;
+}
+
+#workspace {
+  width: 70vw;
+  height: 70vh;
+  font-size: 30px;
+  color: white;
+  resize: none;
+  border-radius: 10px;
+}
+
+#filename {
+  font-size: 25px;
+  color: #fff;
+  border-radius: 5px;
+  width: 25vw;
+}
+
+label,
+select,
+button {
+  font-size: 25px;
+}
+
+.design-input {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.design-input:hover {
+  background-color: gray;
+}

@@ -1,0 +1,42 @@
+<html lang="es">
+  <head>
+    <!-- Defaults -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tea | text editor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 style="font-family: Quicksand">
+      <span style="background-color: #fff; color: #000">tea</span>editor
+    </h1>
+
+    <div id="file-settings">
+      <label for="font"><b>Aa</b></label>
+      <select id="font" class="design-input"></select>
+
+      <input
+        type="text"
+        id="filename"
+        value="tea_editor"
+        class="design-input"
+        placeholder="filename"
+      />
+      <label for="filename">.txt</label>
+
+      <button id="save-file" class="design-input">💾</button>
+      <button id="open-file" class="design-input">📂</button>
+    </div>
+
+    <br /><br />
+    <textarea id="workspace" class="design-input"></textarea>
+
+    <!-- Etiquetas Ocultas -->
+    <div style="display: none">
+      <input type="file" id="hid-open-file" accept=".txt" />
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
